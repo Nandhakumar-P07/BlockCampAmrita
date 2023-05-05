@@ -1,0 +1,81 @@
+.home_background{
+  padding-top: 20%;
+  padding-bottom: 20%;
+    height:100%;
+    width: 100%;
+    background-color: rgb(105, 105, 105);
+    background-image: 
+      radial-gradient(at 0% 0%, rgb(56, 55, 55) 0, transparent 60%), 
+      radial-gradient(at 100% 100%, rgb(0, 0, 0) 0, transparent 60%),
+      radial-gradient(at 50% 0%, rgb(79, 79, 80) 0, transparent 60%), 
+      radial-gradient(at 100% 0%, rgb(0, 0, 0) 0, transparent 60%),
+      radial-gradient(at 50% 100%, rgb(62, 62, 62) 0, transparent 60%);
+}
+
+.eth-card {
+    background-color:#a099ff;
+    background-image: 
+      radial-gradient(at 83% 67%, rgb(152, 231, 156) 0, transparent 58%), 
+      radial-gradient(at 67% 20%, hsla(357,94%,71%,1) 0, transparent 59%), 
+      radial-gradient(at 88% 35%, hsla(222,81%,65%,1) 0, transparent 50%), 
+      radial-gradient(at 31% 91%, hsla(9,61%,61%,1) 0, transparent 52%), 
+      radial-gradient(at 27% 71%, hsla(336,91%,65%,1) 0, transparent 49%), 
+      radial-gradient(at 74% 89%, hsla(30,98%,65%,1) 0, transparent 51%), 
+      radial-gradient(at 53% 75%, hsla(174,94%,68%,1) 0, transparent 45%);
+  }
+
+.white-glassmorphism {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+.Div1_home{
+    padding:4px;
+    padding-bottom: 8px;
+    justify-items: end;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 14px;
+    height:150px;
+    width: 290px;
+    margin-bottom: 10px;
+  }
+
+  .Div2_home{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  .Div3_home{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+  }
+
+  .Div5_home{
+    color:white;
+    font-size: 17px;
+    margin-left: 10px;
+  }
+
+  .Divmain_home {
+    justify-content:center;
+    display: flex;
+    justify-items: center;
+  }
+
+.connectwallet_home {
+    justify-content:center;
+    display: flex;
+    justify-items: center;
+}
+
+.connectwallet_home_h4 {
+    color: azure;
+}

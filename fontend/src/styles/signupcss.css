@@ -1,0 +1,122 @@
+.error-message{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: red;
+    margin-top: 0.2rem;
+  }
+#signupform{
+  border-width: 20px;
+  border-color: black;
+}
+
+#signupmaindiv{
+    opacity:0.9;
+    align-items: center;
+    text-align:center;
+    color:rgb(8, 4, 4);
+    height:450px;
+    width:400px;
+    left:35%;
+    top:20%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: rgb(205, 205, 205);
+    border-radius: 6px;
+    border-color:rgb(0, 0, 0);
+    border-style:outset;
+    border-width: 3px;
+    box-shadow:5px 5px 10px 10px  rgb(57, 56, 56);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    padding:50px 35px;
+  }
+
+#loginmaindiv{
+  opacity:0.9;
+  align-items: center;
+  text-align:center;
+  color:rgb(8, 4, 4);
+  height:500px;
+  width:400px;
+  left:35%;
+  top:20%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  background-color: rgb(205, 205, 205);
+  border-radius: 6px;
+  border-color:rgb(0, 0, 0);
+  border-style:outset;
+  border-width: 3px;
+  box-shadow:5px 5px 10px 10px  rgb(57, 56, 56);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  padding:50px 35px;
+}
+
+
+#navdiv{
+  justify-content:center;
+  text-align: center;
+  background-color: rgb(103, 103, 104);
+  padding: 20px;
+}
+
+#navbar{
+  justify-content:space-between;
+}
+
+#button {
+  background-color: #4de6f1; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 25px 15px 25px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.admindiv{
+  justify-content: center;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 20%;
+    height:100%;
+    width: 100%;
+    background-color: rgb(105, 105, 105);
+    background-image: 
+      radial-gradient(at 0% 0%, rgb(56, 55, 55) 0, transparent 60%), 
+      radial-gradient(at 100% 100%, rgb(0, 0, 0) 0, transparent 60%),
+      radial-gradient(at 50% 0%, rgb(79, 79, 80) 0, transparent 60%), 
+      radial-gradient(at 100% 0%, rgb(0, 0, 0) 0, transparent 60%),
+      radial-gradient(at 50% 100%, rgb(62, 62, 62) 0, transparent 60%);
+}
+
+.votingpagediv{
+  justify-content: center;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 20%;
+    height:100%;
+    width: 100%;
+    background-color: rgb(105, 105, 105);
+    background-image: 
+      radial-gradient(at 0% 0%, rgb(56, 55, 55) 0, transparent 60%), 
+      radial-gradient(at 100% 100%, rgb(0, 0, 0) 0, transparent 60%),
+      radial-gradient(at 50% 0%, rgb(79, 79, 80) 0, transparent 60%), 
+      radial-gradient(at 100% 0%, rgb(0, 0, 0) 0, transparent 60%),
+      radial-gradient(at 50% 100%, rgb(62, 62, 62) 0, transparent 60%);
+}
+
+#div123{
+  justify-content: center;
+  text-align: center;
+}
+
+#idlabel{
+  color: aliceblue;
+}
